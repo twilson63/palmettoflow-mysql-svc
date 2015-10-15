@@ -2,6 +2,8 @@
 
 A palmetto flow mysql service that receives sql queries and returns results
 
+[![Build Status](https://travis-ci.org/twilson63/palmettoflow-mysql-svc.svg?branch=master)](https://travis-ci.org/twilson63/palmettoflow-mysql-svc)
+
 ## Usage
 
 Configuration
