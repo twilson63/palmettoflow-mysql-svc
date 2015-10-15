@@ -1,6 +1,6 @@
 {
   "name": "palmettoflow-mysql-svc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A palmetto flow mysql service that receives sql queries and returns results",
   "main": "index.js",
   "directories": {
