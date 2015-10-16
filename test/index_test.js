@@ -8,12 +8,12 @@ svc({
   host: '127.0.0.1',
   user: 'root',
   password: 'root',
-  database: 'mysql'
+  database: 'clinical_db'
 }, ee)
 
 test('run query', function (t) {
   var ne = newEvent('mysql', 'query', {
-    sql: 'show tables'
+    sql: 'select * from core_gendrug'
   })
   ee.once(ne.from, function (event) {
     console.log(event)
